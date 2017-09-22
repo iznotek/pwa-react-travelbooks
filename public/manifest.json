@@ -1,8 +1,8 @@
 {
   // Short name is what appears on home screen
-  "short_name": "My First PWA",
+  "short_name": "PWA/React on Travelbook",
   // Name is what appears on splash screen
-  "name": "My First Progressive Web App",
+  "name": "PWA (Progressive Web Apps) is the way to make our website live when offline. ",
   // What appears on splash screen & home screen
   "icons": [
     {
