@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
 import {} from 'react-router';
 import { Layout, Header, Content, Drawer } from 'react-mdl';
-import logo from './logo.svg';
+import navbarLogo from './logo-beta-white.svg';
 import './App.css';
+import Cards from './Cards';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Layout fixedHeader>
-          <Header title="Travelbook" />
-
+          <Header>
+            <img src={navbarLogo} />
+          </Header>
           <Drawer />
           <Content>
-            <img src={logo} className="App-logo" alt="logo" />
+            <Cards />
           </Content>
         </Layout>
       </div>
