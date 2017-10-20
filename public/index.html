@@ -28,10 +28,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- Make sure theme-color is defined -->
     <meta name="theme-color" content="#536878">
-    <title>React App</title>
-    <!-- Add in some basic styles for our HTML -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>Travelbook</title>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -45,7 +42,7 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root">
+    <!-- <div id="root">
       <div class="App">
         <div class="App-header">
           <h2>Home</h2>
@@ -53,30 +50,48 @@
         <p class="App-intro">
           Loading site...
         </p>
-    </div>
+    </div> -->
+
+    <div id="root"></div>
 
     <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('service-worker.js').then(function(registration) {
-            // Registration was successful
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }, function(err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
-          }).catch(function(err) {
-            console.log(err)
-          });
-        });
+      // if ('serviceWorker' in navigator) {
+      //   window.addEventListener('load', function() {
+      //     navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+      //       // Registration was successful
+      //       console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      //     }, function(err) {
+      //       // registration failed :(
+      //       console.log('ServiceWorker registration failed: ', err);
+      //     }).catch(function(err) {
+      //       console.log(err)
+      //     });
+      //   });
 
-        
-      } else {
-        console.log('service worker is not supported');
-      }
+      //   window.addEventListener('beforeinstallprompt', function(e) {
+      //     // beforeinstallprompt Event fired
+
+      //     // e.userChoice will return a Promise. 
+      //     // For more details read: https://developers.google.com/web/fundamentals/getting-started/primers/promises
+      //     e.userChoice.then(function(choiceResult) {
+
+      //       console.log(choiceResult.outcome);
+
+      //       if(choiceResult.outcome == 'dismissed') {
+      //         console.log('User cancelled home screen install');
+      //       }
+      //       else {
+      //         console.log('User added to home screen');
+      //       }
+      //     });
+      //   });
+      // } else {
+      //   console.log('service worker is not supported');
+      // }
     </script>
   
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
   </body>
 </html>
