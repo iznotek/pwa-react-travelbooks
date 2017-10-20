@@ -40,6 +40,15 @@ class Cards extends Component {
           users: data.data,
           IS_LOADED: true
         });
+        localStorage.setItem('poppular-users', JSON.stringify(data.data));
+      })
+      .catch(err => {
+        this.setState(() => {
+          return {
+            posts: JSON.parse(localStorage.getItem('poppular-users')),
+            isLoaded: true
+          };
+        });
       });
   }
 

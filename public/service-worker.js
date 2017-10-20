@@ -6,7 +6,8 @@ var CACHE_NAME = 'my-pwa-cache-v1';
 var urlsToCache = [
   '/',
   'index.html',
-  '/static/js/bundle.js'
+  '/static/js/bundle.js',
+  '/users.json'
 ];
 
 // Delete old caches that are not our current one!
