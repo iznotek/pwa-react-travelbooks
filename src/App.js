@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {} from 'react-router';
 import { Layout, Header, Content, Drawer } from 'react-mdl';
+import navbarLogo from './logo-beta-white.svg';
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,12 +10,11 @@ class App extends Component {
     return (
       <div className="App">
         <Layout fixedHeader>
-          <Header title="Travelbook" />
-
+          <Header>
+            <img src={navbarLogo} />
+          </Header>
           <Drawer />
-          <Content>
-            <img src={logo} className="App-logo" alt="logo" />
-          </Content>
+          <Content />
         </Layout>
       </div>
     );
