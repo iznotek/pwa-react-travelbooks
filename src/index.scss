@@ -1,0 +1,18 @@
+$background-color: #FBFBFB;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: $background-color;
+}
+
+.mdl-layout__header-row {
+  margin: auto;
+  padding: 0;
+}
+
+.mdl-layout__header {
+  background: #e37270;
+}
+  

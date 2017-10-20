@@ -1,0 +1,23 @@
+.custom-card .point-detail {
+  width: 50%;
+  display: inline-block;
+}
+.custom-card .point-detail .number {
+  font-size: 20px;
+  color: #383e39;
+}
+.custom-card .point-detail .label {
+  font-size: 10px;
+  color: #ff7674;
+  text-transform: uppercase;
+}
+
+.custom-card .ribbon {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 18px 0;
+  color: #fff;
+}
