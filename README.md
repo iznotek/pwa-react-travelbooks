@@ -1,11 +1,28 @@
-# Git Repository Template
-Project repository template to set up all public projects at [Nimbl3](https://nimbl3.com)
+# PWA (Progressive Web Apps) with React
+PWA (Progressive Web Apps) is the way to make our website live when offline. [more](https://developers.google.com/web/progressive-web-apps/)
 
-## Usage
+## Installing
 
 Clone the repository
 
-`git clone git@github.com:nimbl3/git-template.git`
+```
+git clone https://github.com/nimbl3/pwa-react-travelbooks.git
+```
+
+then build project
+
+```
+yarn
+```
+
+## Running
+
+```
+yarn start
+```
+
+Have fun!!
+
 
 ## License
 
